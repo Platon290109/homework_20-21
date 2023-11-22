@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.qwq{
+    padding: 75px 0;
+}
+.fgf{
+    display: flex;
+    justify-content: center;
+}
+.kul{
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+.mal{
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.hah:not(:last-child){
+    margin-right: 30px;
+}
+.kart:not(:last-child){
+    margin-right: 30px;
+}
+.zamok{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 35px;
+}
+.toch{
+    display: flex;
+    justify-content: center;
+}
+.bodu{
+    background-color: gray;
+}
+.Team{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+padding-top: 188px;
+}
+.schet:not(:last-child){
+    margin-right: 30px;
+}
+.schet{
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.kort:not(:last-child){
+    border-radius: 0px 0px 4px 4px;
+    align-content: center;
+
+}
+.imya{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.ok{
+    color: #757575;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.svg{
+    width: 20px;
+    height: 20px;
+}
+.uk{
+    justify-content: center;
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 42px;
+}
+.uk-li:not(:last-child){
+    margin-right: 34px;
+}
