@@ -42,6 +42,38 @@ margin-bottom: 10px;
 .hah:not(:last-child){
     margin-right: 30px;
 }
+.heh:not(:last-child){
+    margin-right: 30px;
+}
+.heh::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    margin-bottom: 30px;
+}
+.austro::before{
+    background-image: url(astronaut\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.clock::before{
+    background-image: url(clock\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.digrama::before{
+    background-image: url(diagram\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.anten::before{
+    background-image: url(antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .kart:not(:last-child){
     margin-right: 30px;
 }
@@ -122,4 +154,40 @@ letter-spacing: 0.48px;
 }
 .uk-li:not(:last-child){
     margin-right: 34px;
+}
+.ul-li2{
+    border-radius: 4px;
+border: 1px solid #AFB1B8;
+width: 170px;
+height: 92px;
+justify-content: center;
+flex: box;
+}
+.ul-li2{
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-h1{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+}
+.ul2{
+    display: flex;
+}
+.ul-img{
+    width: 106px;
+    height: 60px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
